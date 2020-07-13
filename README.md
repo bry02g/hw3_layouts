@@ -22,7 +22,7 @@ Hint: you will need to use the [Spacer](https://api.flutter.dev/flutter/widgets/
 
 I have provided the Column widget you just need to add the widgets so it matches the screenshot.
 
-Note: The following snippet makes the text align to the left.
+Note: The following snippet makes the text align to the left inside the Column widget.
 ```dart
     crossAxisAlignment: CrossAxisAlignment.start
 ```
@@ -34,7 +34,7 @@ Note: The following snippet makes the text align to the left.
 
 For this question you will need to use the widgets created in question 1 and 2. I have provided the outer Column widget for you.
 
-Hint: Lookup [CircleAvatar](https://api.flutter.dev/flutter/material/CircleAvatar-class.html) and [Placeholder](https://api.flutter.dev/flutter/widgets/Placeholder-class.html)
+Hint: Lookup [CircleAvatar](https://api.flutter.dev/flutter/material/CircleAvatar-class.html) and [Placeholder](https://api.flutter.dev/flutter/widgets/Placeholder-class.html) widgets.
 
 <img src="https://github.com/bry02g/hw3_layouts/blob/master/screenshots/question3.png" width="40%">
 
