@@ -32,7 +32,7 @@ Note: The following snippet makes the text align to the left.
 
 ## Question 3: Rows & Columns
 
-For this question you will need to use the widgets created in question 1 and 2. 
+For this question you will need to use the widgets created in question 1 and 2. I have provided the outer Column widget for you.
 
 Hint: Lookup [CircleAvatar](https://api.flutter.dev/flutter/material/CircleAvatar-class.html) and [Placeholder](https://api.flutter.dev/flutter/widgets/Placeholder-class.html)
 
