@@ -1,18 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Question2 extends StatefulWidget {
-  @override
-  _Question2State createState() => _Question2State();
-}
-
-class _Question2State extends State<Question2> {
+class Question2 extends StatelessWidget {
+  const Question2({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.teal,
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
@@ -22,22 +18,15 @@ class _Question2State extends State<Question2> {
             Navigator.pop(context);
           },
         ),
-        title: Text('Question 2'),
+        title: Text('Question 2: Columns'),
       ),
-      body: Center(
-        child: IconButton(
-          iconSize: 200,
+      body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start, 
+          children: <Widget>[
 
-          // WILL NEED TO MODIFY THIS LINE
-          icon: Icon(
-            Icons.favorite_border,
-          ),
-          
-          onPressed: () {
-            // ADD YOUR CODE HERE
-          },
-        ),
-      ),
+            // ADD YOUR WIDGETS HERE
+
+          ]),
     ));
   }
 }
