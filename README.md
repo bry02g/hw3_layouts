@@ -32,6 +32,10 @@ Note: The following snippet makes the text align to the left.
 
 ## Question 3
 
+For this question you will need to use the widgets created in question 1 and 2.
+
+Hint: Lookup [CircleAvatar](https://api.flutter.dev/flutter/material/CircleAvatar-class.html) and [Placeholder](https://api.flutter.dev/flutter/widgets/Placeholder-class.html)
+
 <img src="https://github.com/bry02g/hw3_layouts/blob/master/screenshots/question3.png" width="40%">
 
 
