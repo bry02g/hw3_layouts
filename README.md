@@ -22,7 +22,7 @@ Hint: you will need to use the [Spacer](https://api.flutter.dev/flutter/widgets/
 
 I have provided the Column widget you just need to add the widgets so it matches the screenshot.
 
-Note: The following snippet makes the text align to the left inside the Column widget.
+Note: The following snippet makes the children of a Column start to the left.
 ```dart
     crossAxisAlignment: CrossAxisAlignment.start
 ```
